@@ -7,24 +7,40 @@
 <div class="row">
   <div class="col-md-2"></div>
   <div class="col-md-8">
-    <center><h1>Welcome to Guaridan Angel</h1>
+  <center>
+    <h1>Welcome to Guaridan Angel</h1>
 
-<p>Sign up to get a text when a fire is detected near you</p></center>
-<br>
+    <p>Sign up to get a text when a fire is detected near you</p>
+    <br>
 
-<%= form_for(@user) do |f| %>
-      <%= f.label :phone %>
-      <%= f.text_field :phone %>
+    <%= form_for(@user) do |f| %>
+    <%= f.label :phone %>
+    <%= f.text_field :phone %>
 
-      <%= f.label :latitude%>
-      <%= f.text_field :latitude, value: request.location.latitude%>
+    <%= f.label :latitude%>
+    <%= f.text_field :latitude, value: request.location.latitude%>
 
-      <%= f.label :longitude %>
-      <%= f.text_field :longitude, value: request.location.longitude %>
-      
-      <%= f.submit "Get Notifications", class: "btn btn-warning" %>
+    <%= f.label :longitude %>
+    <%= f.text_field :longitude, value: request.location.longitude %>
+
+    <%= f.submit "Get Notifications", class: "btn btn-warning" %>
     <% end %>
+    </center>
   </div>
   <div class="col-md-2"></div>
 </div>
 
+<br>
+
+<center>
+<div class="row">
+  <div class="col-md-4">
+  <img src='https://i.imgur.com/mQ164Rq.png'></img>
+  <h3>Sign Up</h3>
+  </div>
+  <div class="col-md-4"><img src='https://i.imgur.com/COVjhP4.png'></img>
+  <h3>Get Alerts</h3></div>
+  <div class="col-md-4"><img src='https://i.imgur.com/BJVQkPz.png'></img>
+  <h3>Get Safe</h3></div>
+</div>
+</center>

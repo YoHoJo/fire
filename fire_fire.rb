@@ -43,7 +43,7 @@ user_csv.each do |u_row|
     if distance < 48280 
       p 'Fire Detected ' + distance.to_s + ' meters away! - ' +  f_row['latitude'] + 'Long: ' + f_row['longitude']
       notified = true
-      twilio.messages.create to: '2096275373', from: '2096501747', body: 'Fire detected within 30, run dude!'
+      twilio.messages.create to: '2096275373', from: '2096501747', body: 'Fire detected within 30mi, run dude!'
     end
     break if notified
   end
