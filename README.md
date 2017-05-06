@@ -1,24 +1,5 @@
-# README
+# Guardian Fire Angel
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This app was created at Hackerlab Sacramento for the 2017 NASA Space Apps Challange.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Guardian Fire Angel sends you an SMS alert when a fire is detected near your tracked location(s).
