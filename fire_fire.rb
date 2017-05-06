@@ -25,7 +25,7 @@ end
 
 fire_data_url = 'https://firms.modaps.eosdis.nasa.gov/active_fire/c6/text/MODIS_C6_USA_contiguous_and_Hawaii_24h.csv'
 
-users_data_url = 'http://localhost:3000/users.csv'
+users_data_url = 'https://still-wave-89139.herokuapp.com/users.csv'
 
 fire_download = open(fire_data_url)
 fire_csv = CSV.parse(fire_download, :headers=>true)
