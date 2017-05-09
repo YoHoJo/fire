@@ -18,10 +18,10 @@
     <%= f.text_field :phone %>
 
     <%= f.label :latitude%>
-    <%= f.text_field :latitude, value: request.location.latitude%>
+    <%= f.text_field :latitude#, value: request.location.latitude%>
 
     <%= f.label :longitude %>
-    <%= f.text_field :longitude, value: request.location.longitude %>
+    <%= f.text_field :longitude#, value: request.location.longitude %>
 
     <%= f.submit "Get Notifications", class: "btn btn-warning" %>
     <% end %>
