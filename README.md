@@ -1,24 +1,10 @@
-# README
+# Guardian Fire Angel 
+<img src="https://sa-web-2017-web.s3.amazonaws.com/cc7e1a07d06e5bbc527c6e2eeb9533d0.png" width="30"> Local People's Choice Winner
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+This app was created at [Hackerlab Sacramento](https://hackerlab.org/) for the [2017 NASA Space Apps Challange](https://2017.spaceappschallenge.org/).
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Guardian Fire Angel sends you an SMS alert when a fire is detected near your tracked location(s).
+* Ruby on Rails 5
+* [Twilio API](https://www.twilio.com/)
+* [NASA Active Fire Data](https://earthdata.nasa.gov/earth-observation-data/near-real-time/firms/active-fire-data)
